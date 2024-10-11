@@ -1,0 +1,12 @@
+:root {
+  --negro: #000;
+  --fondoPage: #f4f2ee;
+  --colorFuente: #5f5f5f;
+  --colorPrincipal: #fff;
+  --colorSecundario: #2874b1;
+  --colorSombraHeader: rgba(0, 0, 0, 0.1);
+  --colorBuscador: #edf3f8;
+  --colorEnLinea: #41db51;
+
+  --bordeRedondo: 50%;
+}
