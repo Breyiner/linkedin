@@ -97,12 +97,12 @@
 
 .navegation__link:hover .navegation__icon,
 .navegation__link:hover .navegation__text {
+  transition: 0.5s;
   color: var(--negro);
 }
 
 .navegation__icon {
   font-size: 1.5rem;
-  transition: 0.5s;
 }
 
 .navegation_text {
@@ -135,7 +135,7 @@
   width: 300px;
   position: absolute;
   top: -500px;
-  right: calc(100vw - 95%);
+  right: calc(100vw - 80vw);
   height: max-content;
   transition: 0.5s;
 }
@@ -151,6 +151,7 @@
   align-items: center;
   gap: 15px;
   color: var(--colorPrincipal);
+  position: relative;
 }
 
 .perfil__img--info {
@@ -165,6 +166,14 @@
 .info-perfil__link-profile{
   text-decoration: none;
   color: var(--colorLinkProfile);
+}
+
+.info-perfil__exit {
+  position: absolute;
+  color: var(--colorPrincipal);
+  top: -13px;
+  right: -10px;
+  text-decoration: none;
 }
 
 .menu-perfil__separador {

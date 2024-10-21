@@ -68,6 +68,7 @@
                   <h3 class="info-perfil__name">Rayan Walton</h3>
                   <a href="perfil/perfil.html" class="info-perfil__link-profile">See your profile</a>
                 </div>
+                <a href="index.html" class="info-perfil__exit">X</a>
               </div>
               <hr class="menu-perfil__separador">
               <a href="#" class="more-functions">
@@ -105,7 +106,6 @@
                 <p class="more-functions__text">Logout</p>
                 <span class="more-functions__sign">></span>
               </a>
-              
             </div>
           </div>
         </nav>
@@ -113,8 +113,120 @@
     </div>
   </header>
   <div class="contenedor-layout container">
-    <aside class="sidebar"></aside>
-    <main class="main"></main>
+    <aside class="sidebar">
+      <div class="sidebar-profile">
+        <img src="img/foto_html.webp" alt="fondo perfil" class="fondo_perfil">
+        <div class="sidebar-profile-info">
+          <img src="img/foto_perfil.webp" alt="foto perfil" class="perfil__img perfil__img--sidebar">
+          <h1 class="sidebar-profile-info__name">Herminigildos .CSS</h1>
+          <h3 class="sidebar-profile-info__profesion">Web Developer</h3>
+          <ul class="sidebar-profile-info__information">
+            <li class="sidebar-profile-info__item">Your Profile Views
+              <span class="sidebar-profile-info__count">52</span>
+            </li>
+            <li class="sidebar-profile-info__item">Your Post Views
+              <span class="sidebar-profile-info__count">810</span>
+            </li>
+            <li class="sidebar-profile-info__item">Your Connections
+              <span class="sidebar-profile-info__count">205</span>
+            </li>
+          </ul>
+        </div>
+        <div class="sidebar-profile-link">
+          <a href="#" class="sidebar-profile-link__link">
+            <i class="ri-bookmark-fill icon-sidebar"></i>
+            My Items</a>
+          <a href="#" class="sidebar-profile-link__link sidebar-profile-link__link--bordeIzquierda">
+            <i class="ri-ticket-2-fill icon-sidebar icon-sidebar--premium"></i>
+            Try Premium</a>
+        </div>
+      </div>
+      <div class="sidebar__activity">
+        <h3 class="sidebar-activiy__title">Recent</h3>
+        <a href="#" class="sidebar-activiy__link">
+          <i class="ri-time-line icon-sidebar icon-sidebar--activity"></i>
+          Web Developer
+        </a>
+        <a href="#" class="sidebar-activiy__link">
+          <i class="ri-time-line icon-sidebar icon-sidebar--activity"></i>
+          User Interface
+        </a>
+        <a href="#" class="sidebar-activiy__link">
+          <i class="ri-time-line icon-sidebar icon-sidebar--activity"></i>
+          Online Learning
+        </a>
+        <a href="#" class="sidebar-activiy__link">
+          <i class="ri-time-line icon-sidebar icon-sidebar--activity"></i>
+          Learn Online
+        </a>
+        <a href="#" class="sidebar-activiy__link">
+          <i class="ri-time-line icon-sidebar icon-sidebar--activity"></i>
+          Code Better
+        </a>
+        <a href="#" class="sidebar-activiy__link">
+          <i class="ri-time-line icon-sidebar icon-sidebar--activity"></i>
+          Group Learning
+        </a>
+        <h3 class="sidebar-activiy__title">Groups</h3>
+        <a href="#" class="sidebar-activiy__link">
+          <i class="ri-group-3-fill icon-sidebar icon-sidebar--activity"></i>
+          Web Design Groups
+        </a>
+        <a href="#" class="sidebar-activiy__link">
+          <i class="ri-group-3-fill icon-sidebar icon-sidebar--activity"></i>
+          HTML & CSS Learners
+        </a>
+        <a href="#" class="sidebar-activiy__link">
+          <i class="ri-group-3-fill icon-sidebar icon-sidebar--activity"></i>
+          Python & JavaScript Group
+        </a>
+        <a href="#" class="sidebar-activiy__link">
+          <i class="ri-group-3-fill icon-sidebar icon-sidebar--activity"></i>
+          Learn Coding Online
+        </a>
+        <h3 class="sidebar-activiy__title">Hashtag</h3>
+        <a href="#" class="sidebar-activiy__link">
+          <i class="ri-hashtag icon-sidebar icon-sidebar--activity"></i>
+          webdevelopment
+        </a>
+        <a href="#" class="sidebar-activiy__link">
+          <i class="ri-hashtag icon-sidebar icon-sidebar--activity"></i>
+          userinterface
+        </a>
+        <a href="#" class="sidebar-activiy__link">
+          <i class="ri-hashtag icon-sidebar icon-sidebar--activity"></i>
+          onlinlearning
+        </a>
+        <div class="discover-more">
+          <a href="#" class="discover-more__link">Discover More</a>
+        </div>
+      </div>
+    </aside>
+    <main class="main">
+      <div class="create-post">
+        <div class="create-post-write">
+          <img src="img/foto_perfil.webp" alt="foto perfil" class="perfil__img">
+          <textarea class="create-post-write__write" rows="2" placeholder="Write a Post"></textarea>
+        </div>
+        <div class="create-post-options">
+          <a href="" class="create-post-item">
+            <i class='bx bxs-camera icon-create-post'></i>
+            Photo
+          </a>
+          <a href="" class="create-post-item">
+            <i class='bx bxs-video icon-create-post'></i>
+            Video
+          </a>
+          <a href="" class="create-post-item">
+            <i class="bx bx-merge icon-create-post"></i>
+            Event
+          </a>
+          <a href="" class="create-post-item create-post-item--send">
+            Post
+          </a>
+        </div>
+      </div>
+    </main>
     <aside class="aside"></aside>
   </div>
 </body>
