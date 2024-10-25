@@ -3,7 +3,7 @@
   width: 100%;
   background-color: var(--colorPrincipal);
   box-shadow: 0 5px 10px var(--colorSombraHeader);
-  /* z-index: 100; */
+  z-index: 1;
   position: fixed;
   padding: 0 10px;
   /* display: flex; */
@@ -109,7 +109,7 @@
   font-size: 0.8rem;
 }
 
-.perfil__online {
+.perfil {
   position: relative;
 }
 
@@ -135,14 +135,14 @@
   width: 300px;
   position: absolute;
   top: -500px;
-  right: calc(100vw - 80vw);
+  right: 0;
   height: max-content;
   transition: 0.5s;
 }
 
 .menu-perfil:target {
   background-color: #222;
-  top: 100%;
+  top: 120%;
   padding: 20px;
 }
 
