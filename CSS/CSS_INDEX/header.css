@@ -129,6 +129,11 @@
   width: 35px;
   height: 35px;
   border-radius: var(--bordeRedondo);
+  cursor: pointer;
+}
+
+.check-menu {
+  display: none;
 }
 
 .menu-perfil {
@@ -140,7 +145,7 @@
   transition: 0.5s;
 }
 
-.menu-perfil:target {
+.check-menu:checked + .menu-perfil {
   background-color: #222;
   top: 120%;
   padding: 20px;
