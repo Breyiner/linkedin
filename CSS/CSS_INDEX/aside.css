@@ -7,6 +7,7 @@
   height: max-content;
   padding: 25px;
   position: relative;
+  margin-bottom: 15px;
 }
 
 .news__title {
@@ -48,9 +49,8 @@
 }
 
 .sticky {
-  margin-top: 15px;
   position: sticky;
-  top: 73px;
+  top: 72px;
 }
 
 .sidebar-ad {
