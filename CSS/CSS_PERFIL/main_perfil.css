@@ -2,11 +2,6 @@
     grid-area: profile-main;
 }
 
-.fondo-perfil--profile {
-    width: 100%;
-    height: 260px;
-}
-
 .container-profile {
     background-color: var(--colorPrincipal);
 }

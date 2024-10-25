@@ -4,9 +4,7 @@
 @import url(CSS_INDEX/sidebar.css);
 @import url(CSS_INDEX/main.css);
 @import url(CSS_INDEX/aside.css);
-@import url(CSS_PERFIL/main_perfil.css);
-@import url(CSS_PERFIL/sidebar_perfil.css);
-@import url(CSS_PERFIL/footer_perfil.css);
+@import url(CSS_PERFIL/style_perfil.css);
 @import url(variables.css);
 
 * {
@@ -36,15 +34,41 @@
   padding-top: calc(56px + 20px);
 }
 
-/*Layout perfil*/
-.contenedor-profile {
-  display: grid;
-  grid-template-columns: 1fr 280px;
-  grid-template-rows: auto;
-  grid-template-areas: 
-  'profile-main profile-sidebar'
-  'profile-footer profile-footer';
-  height: 100vh;
-  gap: 15px;
-  padding-top: calc(52px + 20px);
+@media (width < 1100px) {
+  .contenedor-layout {
+    grid-template-columns: 280px 1fr;
+    grid-template-areas: 
+    'sidebar main';
+  }
+  .aside {
+    display: none;
+  }
+}
+
+@media (width < 770px) {
+  .contenedor-layout {
+    grid-template-columns: 1fr;
+    grid-template-rows: 2;
+    grid-template-areas: 
+    'sidebar'
+    'main';
+  }
+
+  .buscador {
+    background-color: transparent;
+  }
+
+  .buscador__barra {
+    width: 0;
+    padding: 0;
+  }
+
+  .navegation__link {
+    min-width: 45px;
+  }
+
+  .navegation_text {
+    display: none;
+  }
+
 }

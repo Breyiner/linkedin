@@ -8,7 +8,7 @@
   background-color: var(--colorPrincipal);
 }
 
-.fondo_perfil {
+.fondo-perfil {
   width: 100%;
   object-fit: cover;
 }
