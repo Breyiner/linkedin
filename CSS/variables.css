@@ -14,4 +14,10 @@
   --colorButton-Profile: #e4e6eb;
 
   --bordeRedondo: 50%;
+  --tamanoBorde: 1px;
+  --tipoBorde: solid;
+
+  --alineacionEjeY: center;
+  --alineacionEjeX: center;
+  
 }

@@ -81,7 +81,7 @@
   text-decoration: none;
   margin-top: 20px ;
   padding: 7px 15px;
-  border: 1px solid var(--colorSecundario);
+  border: var(--tamanoBorde) var(--tipoBorde) var(--colorSecundario);
   border-radius: 30px;
   color: var(--colorSecundario);
   font-weight: 600;
@@ -89,7 +89,7 @@
 
 .sidebar-ad__img {
   width: 60px;
-  border-radius: 50%;
+  border-radius: var(--bordeRedondo);
   margin: 5px;
 }
 
@@ -109,8 +109,8 @@
 
 .copyright-msg {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: var(--alineacionEjeY);
+  justify-content: var(--alineacionEjeX);
   margin-top: 10px;
 }
 

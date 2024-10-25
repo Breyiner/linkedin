@@ -23,7 +23,7 @@
 }
 
 .create-post-options {
-  border-top: 1px solid var(--colorSeparador);
+  border-top: var(--tamanoBorde) var(--tipoBorde) var(--colorSeparador);
   display: flex;
 }
 
@@ -35,15 +35,15 @@
 
 .create-post-item {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: var(--alineacionEjeY);
+  justify-content: var(--alineacionEjeX);
   gap: 5px;
   width: 25%;
   padding: 10px;
   text-decoration: none;
   font-size: 15px;
   color: var(--colorFuente);
-  border-right: 1px solid var(--colorSeparador);
+  border-right: var(--tamanoBorde) var(--tipoBorde) var(--colorSeparador);
   transition: 0.5s;
 }
 
@@ -58,7 +58,7 @@
 
 .separador-post {
   display: flex;
-  align-items: center;
+  align-items: var(--alineacionEjeY);
   margin: 10px 0;
   gap: 5px;
 }
@@ -92,7 +92,7 @@
 
 .post-author {
   display: flex;
-  align-items: center;
+  align-items: var(--alineacionEjeY);
   gap: 10px;
 }
 
@@ -118,14 +118,14 @@
 
 .post-stats {
   display: flex;
-  align-items: center;
+  align-items: var(--alineacionEjeY);
   justify-content: space-between;
   flex-wrap: wrap;
 }
 
 .post-stats__reactions {
   display: flex;
-  align-items: center;
+  align-items: var(--alineacionEjeY);
   padding-bottom: 6px;
 }
 
@@ -141,14 +141,14 @@
 .post-activities {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: var(--alineacionEjeY);
   padding: 10px 0;
-  border-top: 1px solid var(--colorSeparador);
+  border-top: var(--tamanoBorde) var(--tipoBorde) var(--colorSeparador);
 }
 
 .post-activities__user {
   display: flex;
-  align-items: center;
+  align-items: var(--alineacionEjeY);
 }
 
 .post-activities__img {
@@ -168,5 +168,5 @@
 
 .post-activities__link {
   display: flex;
-  align-items: center;
+  align-items: var(--alineacionEjeY);
 }
